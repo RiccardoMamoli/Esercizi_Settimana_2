@@ -69,7 +69,10 @@ REGOLE
 // console.log(results);
 
 // EXTRA
-// let results = (name1.toLowerCase() !== name2.toLowerCase()) ? 'name1 e name2 sono diversi' : 'name1 e name2 sono uguali';
+// name1 = name1.toLowerCase();
+// name2 = name2.toLowerCase();
+
+// let results = (name1 !== name2) ? 'name1 e name2 sono diversi' : 'name1 e name2 sono uguali';
 // console.log(results)
 
 
