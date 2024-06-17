@@ -12,8 +12,8 @@ REGOLE
 */
 
 // Tra i principali datatype in Javascript abbiamo:
-//  1. String: è una stringa è una sequenza di caratteri utilizzata per rappresentare e modifcare il testo.
-//  2. Number: è un dato numerico
+//  1. String: una stringa è una sequenza di caratteri utilizzata per rappresentare e modifcare il testo.
+//  2. Number: variabila a dati numerici 
 //  3. Boolean: è un dato che può assumere solo due valori: true o false (vero o falso)
 //  4. Null: è un dato al quale non ho ancora assegnato un valore (volontariamente)
 //  5. Undefined: è un dato al quale ho dichiarato una variabile ma non ho assegnato un valore.
@@ -47,7 +47,7 @@ REGOLE
   Dimostra l'impossibilità di riassegnare un valore ad una variabile dichiarata con il costrutto const.
 */
 
-// const myName = 'Mamoli'
+// myName = 'Mamoli'
 // console.log(myName) ---> errore poichè utilizzando const abbiamo un valore che non può essere riassegnato
 
 /* ESERCIZIO 6
