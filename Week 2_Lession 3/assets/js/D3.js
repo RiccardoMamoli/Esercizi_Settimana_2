@@ -145,7 +145,6 @@ for (i = 0; i < nameColor.length; i++) {
   eye_color[nameColor[i]] = [];
 }
 
-console.log(eye_color);
 
 /* ESERCIZIO 5
   Utilizza uno switch statement per inserire uno ad uno gli oggetti dei personaggi di "starWarsCharacters" negli array relativi al colore degli occhi precedentemente creati.
@@ -226,10 +225,10 @@ for (i = 0; i < starWarsCharacters.length; i++) {
   Una volta fatto crea un console.log per controllare la proprietà length di "charactersNames" prima e dopo l'operazione.
 */
 
-for (i = 0; i < femaleCharacters.length; i++) {
-  
-}
 
 /* --EXTRA-- ESERCIZIO 10
   Crea una funzionalità che selezioni un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo (a tuo piacimento).
 */
+
+let randomCharacter = starWarsCharacters[Math.floor(Math.random() * starWarsCharacters.length)];
+console.log(randomCharacter);
